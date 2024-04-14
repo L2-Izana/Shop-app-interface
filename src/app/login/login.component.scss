@@ -1,0 +1,91 @@
+.container {
+    color: rgba($color: white, $alpha: 0.9);
+}
+.login-form {
+    background-color: rgb(12, 12, 55);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    border: 1px solid rgb(32, 34, 60);
+    align-items: center;
+    justify-content: center;
+}
+.login-header {
+    text-align: center;
+    color: rgb(105, 244, 181);
+    margin-bottom: 20px;
+}
+.form-control {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.form-control:focus {
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border-color: transparent;
+}
+.divider-nospace {
+    border-top: 1px solid rgb(176, 196, 222);
+}
+.password-field {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    top: 75%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(105, 204, 181);
+    cursor: pointer;
+}
+.checkbox-text {
+    color: rgba(243, 165, 42, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.checkbox-text input[type="checkbox"]:check {
+    border-color: white;
+    background-color: rgb(233, 66, 178);
+}
+.form-check-input {
+    margin-right: 5px;
+}
+.register-link {
+    color: rgb(105, 244, 181);
+    text-decoration: none;
+}
+.access-right {
+    margin-top: 20px;
+    width: 200px;
+    color: rgba($color: white, $alpha: 0.9);
+    border: 1px solid rgb(225, 64, 180);
+}
+option {
+    background-color: rgb(19, 23, 42);
+    color: rgba(255, 255, 255, 0.8);
+}
+.access-right:focus {
+    border: 1px solid rgb(225, 64, 180);
+}
+.form-control::placeholder {
+    color: rgba(243, 165, 42, 0.4);
+}
+.form-control:-ms-input-placeholder {
+    color: rgba(243, 165, 42, 0.4);
+}
+.form-control::-ms-input-placeholder {
+    color: rgba(243, 165, 42, 0.4);
+}
+.login-button {
+    background: linear-gradient(to right, rgb(255, 64, 180), rgb(126, 43, 237));
+    color: rgba($color: white, $alpha: 0.9);
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: none;
+}

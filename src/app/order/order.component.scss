@@ -1,0 +1,63 @@
+.intro-section {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.product-header {
+    color: rgb(233, 66, 176)
+}
+.form-control {
+    background-color: rgb(19, 23, 42);
+    border: 1px solid rgb(29, 33, 54);
+    color: white;
+}
+.form-control:focus {
+    border-color: white;
+    background-color: rgb(19, 23, 42);
+}
+.form-label {
+    color: rgba(255, 255, 255, 0.8);
+}
+.product-order {
+    color: rgb(105, 244, 181)
+}
+table {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    border-collapse: separate;
+    border: 1px solid white;
+    border-spacing: 0;
+    background-color: rgb(12, 13, 54);
+}
+th {
+    padding: 10px;
+    text-align: center;
+    color: rgba(105, 244, 181, 0.7);
+}
+td {
+    color: rgba(255, 255, 255, 0.8);
+}
+.product-info {
+    display: flex;
+    align-items: center;
+}
+.product-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.product-name {
+    color: rgba(255, 255, 255, 0.8);
+    margin-right: 10px;
+}
+.total-price {
+    color: rgba($color: white, $alpha: 0.9);
+}
+.btn-gradient {
+    background: linear-gradient(to right, rgb(255, 64, 180), rgb(126, 43, 237));
+    color: white;
+    border-radius: 30px;
+    width: 200px;
+}

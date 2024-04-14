@@ -1,0 +1,51 @@
+<app-header></app-header>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <div class="login-form mx-auto">
+                <h2 class="login-header">Log In</h2>
+                <div class="form-group">
+                    <label for="email">Email or Phone number</label>
+                    <input type="text" class="form-control" id="email">
+                    <div class="divider-nospace"></div>
+                </div>
+                <div class="mt-5"></div>
+                <div class="form-group password-field">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="At least 8 symbols" class="form-control" id="password">
+                    <i class="password-toggle fas fa-eye slash"></i>
+                    <div class="divider-nospace"></div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check checkbox-text">
+                        <span style="display: flex;">
+                            <input type="checkbox" class="form-check-input" id="remember">
+                            <label for="remember" class="form-check-label text-start">
+                                Remember login
+                            </label>
+                        </span>
+                        <a href="#" class="register-link">Forget password</a>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <select class="form-control access-right">
+                        <option selected disabled hidden>Login permission</option>
+                        <option>User</option>
+                        <option>Administrator</option>
+                    </select>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button type="button" class="login-button">Log In</button>
+                </div>
+                <div class="divider"></div>
+                <p class="text-center">
+                    Not have an account?
+                    <span>
+                        <a href="#" class="register-link">Sign Up</a>
+                    </span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
